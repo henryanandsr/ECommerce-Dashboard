@@ -4,8 +4,8 @@ import seaborn as sns
 import streamlit as st
 sns.set_theme(style="dark")
 
-seller_df = pd.read_csv("../data/sellers_dataset.csv")
-payment_df = pd.read_csv("../data/order_payments_dataset.csv")
+seller_df = pd.read_csv("./data/sellers_dataset.csv")
+payment_df = pd.read_csv("./data/order_payments_dataset.csv")
 
 # Create a function for payment type
 def payment_type(payment_df, min_payment_value):
